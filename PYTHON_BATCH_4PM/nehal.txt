@@ -1,0 +1,18 @@
+functional programming
+json
+pickle
+git and github
+oops
+modules
+database  and sql and db connectivity
+statistics
+numpy
+pandas
+matplotlib
+seaborn
+basic linux
+big data problem
+hadoop
+
+
+

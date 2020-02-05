@@ -1,0 +1,19 @@
+ Id CommandLine
+  -- -----------
+   1 vim demo.py
+   2 vim demo1.py
+   3 python .\demo1.py
+   4 vim demo.py
+   5 vim demo1.py
+   6 python .\demo1.py
+   7 vim demo1.py
+   8 python .\demo1.py
+   9 vim x.py
+  10 python x.py
+  11 python -m py_compile x.py
+  12 cd .\__pycache__\
+  13 ls
+  14 python .\x.cpython-36.pyc
+  15 cd ..
+  16 ls
+  17 python -m dis x.py

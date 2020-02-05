@@ -1,0 +1,5 @@
+import pickle 
+file=open("qwerty","rb")
+data=pickle.dump(file)
+print(data)
+file.close()

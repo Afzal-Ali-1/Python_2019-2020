@@ -1,0 +1,4 @@
+x=int(input("Enter the number x :"))
+y=int(input("Enter the number y : "))
+c=x+y
+print("addition is ",c)

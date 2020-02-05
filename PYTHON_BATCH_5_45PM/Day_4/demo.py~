@@ -1,0 +1,2 @@
+string="Pyhton is a good programming language"
+string.replace("Python","java")

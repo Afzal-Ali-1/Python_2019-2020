@@ -1,0 +1,16 @@
+import os 
+name="""afzal
+nitesh
+pooja
+sana
+pooja
+sana
+afzal
+prabodh
+prabodh
+afzal
+pooja
+"""
+while True:
+    print(name.count(input("Enter the name : ")))
+    os.system("cls")

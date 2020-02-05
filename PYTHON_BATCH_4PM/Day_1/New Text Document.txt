@@ -1,0 +1,8 @@
+1.start
+2.data---->file read
+3.replace("Indian" and "India" --->"Python")
+4.another_data---replaced data 
+5.close previous file
+6.I have to create a new file 
+7.store replaced data into new file
+8.End

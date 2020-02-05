@@ -1,0 +1,2 @@
+string="This is python"
+string.upper()
