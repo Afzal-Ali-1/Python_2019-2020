@@ -1,0 +1,59 @@
+There are following useful commands in Github :
+°git status :tells the current status
+°git--version:tells the current version of git 
+°git init : it initialized the git repository
+°git add . : All files move to stage area
+°git commit -m "message" : use to commit
+°git log: shows by which & when the changes happened.
+°git config --global user.name. "xyz" :use to set username
+°gitconfig --global  "xyz@gmail.com" : use to set emalil
+°git remote add origin git@github.com:xyz66/abx.git:
+It will create the origin which mean it will tells local repository that inwhich central repository we are working 
+°git push -u origin master :to push the code
+°git pull origin master : to pull the code 
+°git diff xyz.txt : to see the difference 
+°git diff --staged xyz.txt: to see the difference in file which is in stage area
+°git reset xyz.txt : to unstage the file
+°git checkout xyz.txt : removes the canges and make file as before as it was
+°git checkout: to do with all files 
+°git pull: for pushing
+
+
+
+°git add -A : stages all
+°git add . : Stages new and modified , without deleted
+°git add -u : stages modified and deleted , without new
+
+
+
+CLONING:- 
+
+Copy ssh key then 
+git clone gut@github.com:xyz/abc.git
+If we want to make repo folder itself then just put a "."
+IGNORE:- 
+to ignore files create a gitignore directory 
+°touch .gitignore 
+IF YOU ALREADY HAVE A FILE CHECK-IN AND YOU WANT TO IGNORE IT IT WILL NOT IGNORE THE FILES IF YOU ADD A RULE LETTER IN THOSE CASES YOU MUST untrack THE FILE FIRST BY RUNNING THE FOLLOWING COMMANDS IN YOUR TERMINAL
+°git rm --cached FILENAME 
+To ignore directory 
+° DIRNAME / 
+
+
+BRANCHING:-
+°git branch : show existing branch 
+°git branch xyz :to add a new branch 
+To switch from master to other 
+° git checkout xyz 
+To push the code in other branch
+°git push origin xyz 
+
+MERGING:
+°git branch
+°git checkout master
+°git merge xyz
+°git push -u origin master 
+
+DELETING BRANCH:
+°git branch -d xyz : to delete in local
+°git push origin --delete xyz : to delete from remote
